@@ -1,0 +1,32 @@
+:root{
+    --marginalen:()
+}
+
+*{
+    margin: 0;
+    padding: 0; 
+    box-sizing: border-box;
+}
+
+body{
+    position:relative;
+    height:100vh;
+}
+.main{
+    position:absolute;
+    background: aqua(236, 91, 100);
+    top: 10%;
+    bottom: 10%;
+    left: 10%;
+    right: 10%;
+}
+h1{
+    font-family: "impact", sans-serif
+    color: white;
+    font-size: 6rem;
+    width: 100%;
+    text-align: center;
+    margin-top: 50%;
+    margin: bottom 50%;
+    box-shadow: 5px 5px 15px black;
+}
